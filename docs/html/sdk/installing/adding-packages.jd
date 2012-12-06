@@ -1,0 +1,54 @@
+page.title=Adding Platforms and Packages
+
+@jd:body
+
+
+<p>The Android SDK separates tools, platforms, and other components into packages you can
+  download using the Android SDK Manager. The original
+SDK package you've downloaded includes only the SDK Tools. To develop an Android app,
+you also need to download at least one Android platform and the latest SDK Platform-tools.</p>
+
+<ol>
+<li>Launch the SDK Manager.
+<p>If you've used the Windows installer to install the SDK tools, you should already have the
+Android SDK Manager open. Otherwise, you can launch the Android SDK Manager in one of the following
+ways:</p>
+<ul>
+  <li>On Windows, double-click the <code>SDK Manager.exe</code> file at the root of the Android
+SDK directory.</li>
+  <li>On Mac or Linux, open a terminal and navigate to the <code>tools/</code> directory in the
+Android SDK, then execute <code>android sdk</code>.</li>
+</ul>
+</li>
+
+<li>When the Android SDK Manager opens, it automatically selects a set of recommended packages,
+as shown in figure 1.
+Simply click <strong>Install</strong> to install the recommended packages. The Android SDK Manager
+installs the selected packages into
+your Android SDK environment.</li>
+</ol>
+
+<p>If you install the recommended packages, you're now ready to start developing apps!
+To start developing, read <a href="{@docRoot}training/basics/firstapp/index.html"
+>Building Your First App</a>.</p>
+
+<img src="/images/sdk_manager_packages.png" alt="" />
+<p class="img-caption"><strong>Figure 1.</strong> The Android SDK Manager shows the
+SDK packages that are available, already installed, or for which an update is available.</p>
+
+
+
+<h3>Additional information</h3>
+
+<p>For more information about using the SDK Manager and some of the available packages,
+see the <a href="{@docRoot}tools/help/sdk-manager.html">SDK Manager</a> document.</p>
+
+<p>Everything you need to develop Android apps is on this web site, including <a
+href="{@docRoot}design/index.html">design guidelines</a>,
+<a href="{@docRoot}training/index.html">developer training</a>, <a
+href="{@docRoot}reference/packages.html">API reference</a>, and information
+about how you can <a href="{@docRoot}distribute/index.html">distribute your app</a>.
+For additional resources about developing and distributing your app, see the
+<a href="{@docRoot}support.html">Developer Support Resources</a>.</p>
+
+
